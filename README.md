@@ -29,6 +29,12 @@
 - **Model Chaining & 1x–8x Scaling:** Optional 2-stage model chaining (e.g. `1x` deblocking → `2x`/`4x` upscaling), quick before/after **Preview**, and externalized JSON presets (`config/presets.json`).
 
 ---
+## Preview
+
+<p align="center">
+  <img src="assets/preview_before_after.png" width="650" alt="Lumina Upscaler GUI.png" />
+</p>
+---
 
 ## Hardware Support
 
