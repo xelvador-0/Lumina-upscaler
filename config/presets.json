@@ -1,0 +1,42 @@
+{
+  "Pure AI": {
+    "noise": 0.0,
+    "comp": 0.0,
+    "details": 0.0,
+    "sharpen": 0.0,
+    "halo": 0.2,
+    "luma": 0.0,
+    "grain": 0.0,
+    "flicker": 0.2
+  },
+  "Anime": {
+    "noise": 0.0,
+    "comp": 0.0,
+    "details": 0.0,
+    "sharpen": 0.1,
+    "halo": 0.25,
+    "luma": 0.0,
+    "grain": 0.0,
+    "flicker": 0.2
+  },
+  "Real": {
+    "noise": 0.05,
+    "comp": 0.0,
+    "details": 0.25,
+    "sharpen": 0.25,
+    "halo": 0.2,
+    "luma": 0.08,
+    "grain": 0.012,
+    "flicker": 0.25
+  },
+  "Decompress": {
+    "noise": 0.15,
+    "comp": 0.25,
+    "details": 0.2,
+    "sharpen": 0.2,
+    "halo": 0.3,
+    "luma": 0.05,
+    "grain": 0.01,
+    "flicker": 0.3
+  }
+}

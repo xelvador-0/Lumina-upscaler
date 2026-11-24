@@ -1,0 +1,20 @@
+[project]
+name = "lumina-upscaler"
+version = "1.0.0"
+description = "Lightweight local image and video quality enhancer for DirectML, CUDA, and CPU."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "onnxruntime-directml>=1.17.0",
+    "opencv-python>=4.9.0",
+    "numpy>=1.26.0",
+    "tqdm>=4.66.0",
+]
+
+[project.scripts]
+lumina = "cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
